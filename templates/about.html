@@ -1,0 +1,93 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+   About
+{% endblock %}
+
+{% block navbar %}
+
+<header>
+    <h1>Ezzeddin Hazem Zaki</h1>
+</header>
+
+<topnav>
+    <a href="/">Home</a></li>
+    <a href="/about">About</a></li>
+    <a style="float:right" href="/contact">Contact</a></li>
+</topnav>
+
+{% endblock %}
+
+{% block content %}
+<content>
+    <column>
+        <h3>About me</h3>
+        <p>Hello, My name is Ezzeddin Hazem. I am a recent graduate with a Bachelor's degree in Automation and Control engineering.</p>
+        <p>passionate about leveraging cutting-edge technology to optimize and innovate industrial processes.</p>
+        <p>During my academic journey, I gained a solid foundation in system dynamics, control systems, and automation technologies, complemented by hands-on experience through various projects.</p>
+        <p>Additionally, I have an interest in web development, which has broadened my technical skill set and allowed me to create dynamic, user-friendly web applications.</p>
+        <p> My coursework and practical experiences have honed my problem-solving skills, enabling me to design efficient solutions and improve system performance.</p>
+        <p> I am eager to contribute my knowledge and enthusiasm to a dynamic team, continuously learning and growing within these fields</p>
+    </column>
+    <column2>
+        <h3>Education</h3>
+        <p>I graduated from the German International University with a Bachelor of Science in Automation and Control Engineering.</p>
+        <p>My academic performance was strong, achieving a GPA of 2.02 in the German grading system, which is equivalent to a "Very Good" rating. </p> 
+        <p>During my studies, I gained comprehensive knowledge in system dynamics, control systems, and automation technologies, supplemented by hands-on projects that enriched my practical understanding of the field.</p>
+    </column2>
+</content>
+
+<sidebar>
+    <columnSide>
+        <img src="{% static 'Portrait.jpg' %}"></img>
+        <middle>
+            <a href="/contact">Contact Me</a></li>
+        </middle>
+    </columnSide>
+
+    <columnSide2>
+        <p>Birth date : 9 nov 2002 </p>
+        <p>Military status : Exempted </p>
+    </columnSide2>
+
+    <columnSide3>
+        <h3 style="text-decoration: underline;">Skills</h3>
+        <h3>Engineering skills</h3>
+        <ul>
+            <li>Electrical Engineering</li>
+            <li>Control Systems</li>
+            <li>Circuit Analysis</li>
+            <li>Arduino</li>
+            <li>Matlab</li>
+            <li>PLC</li>
+        </ul>
+        <h3>Software skills</h3>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>ReactJS</li>
+            <li>Python Django</li>
+        </ul>
+        <h3> Others </h3>
+        <ul>
+            <li>Adobe Illustrator</li>
+            <li>Adobe Photoshop</li>
+            <li>Microsoft Office</li>
+            <li>Fast learner</li>
+            <li>Problem solving</li>
+            <li>Project management</li>
+        </ul>
+    </columnSide3>
+
+    <columnSide4>
+        <h3 style="text-decoration: underline;">Languages</h3>
+        <ul>
+            <li>Arabic : Native </li>
+            <li>English : Fluent</li>
+        </ul>
+    </columnside4>
+</sidebar>
+{% endblock %}

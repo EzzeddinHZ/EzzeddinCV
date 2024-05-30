@@ -1,0 +1,247 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+body {
+    min-height: 100vh;
+    background-color: #000000;
+    color: #EEEEEE;
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    display: flex;
+    flex-flow: column;
+}
+header {
+    font-size: 30px;
+    background-color: #222831ac;
+    text-align: center;
+}
+
+
+
+
+topnav{
+    background-color: #22283100;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+  
+topnav a {
+    padding: 5px;
+    margin: 4rem;
+    color: #EEEEEE;
+    text-decoration: none;
+    
+}
+  
+topnav a:hover {
+    background-color: #EEEEEE;
+    border-radius: 10%;
+    color: #31363F;
+}
+
+
+
+/*home*/
+homecolumn img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/*about*/
+content{
+    width: 74%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+content h3{
+    color: #eeeeeedc;
+    margin: 10px;
+    text-decoration: underline;
+}
+content p{
+    color: #eeeeeea5;
+    margin: 0px;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+column{
+    background-color: #222831ac;
+    padding: 2rem;
+    margin-bottom: 10px;
+    min-height: 20rem;
+}
+column2{
+    background-color: #222831ac;
+    padding: 2rem;
+    margin-bottom: 10px;
+    min-height: 20rem;
+}
+
+
+sidebar{
+    width: 25%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+sidebar h3{
+    color: #eeeeeedc;
+    font-size: 35px;
+    margin: 0px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    padding: 0px;
+}
+sidebar ul{
+    color: #eeeeeea5;
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 2px;
+    padding: 0px;
+}
+
+columnSide{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222831ac;
+    float: right;
+}
+columnside img{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 10px;
+    border-radius: 10%;
+
+    opacity: 1;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+
+    transition: .3s ease;
+    backface-visibility: hidden;
+}
+columnSide middle{
+    transition: .3s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+  }
+columnSide:hover img {
+    border-radius: 50%;
+    transform: scale(0.9);
+    opacity: 0.3;
+}
+  
+columnSide:hover middle {
+    opacity: 1;
+}
+columnSide a {
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+columnSide2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831ac;
+    float: right;
+
+    padding: 0px;
+}
+columnSide2 p{
+    padding: 0;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+columnSide3{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831ac;
+    float: right;
+    padding: 10px;
+}
+
+columnSide4{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831ac;
+    float: right;
+    padding: 10px;
+}
+
+
+/*Contact page*/
+contentCont{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+contentCont h3{
+    color: #eeeeeedc;
+    margin: 10px;
+    text-decoration: underline;
+}
+contentCont p{
+    color: #eeeeeea5;
+    margin: 0px;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+columnCont{
+    background-color: #222831ac;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin-bottom: 10px;
+    min-height: 0rem;
+}
+columnCont img{
+    margin-left: auto;
+    max-width: 50%;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #EEEEEE;
+    background-color: #222831ac;
+    text-align: center;
+    position: sticky;
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+}
